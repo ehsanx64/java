@@ -14,7 +14,10 @@ public class JavaTest {
 		// javatest.testArrayList();
 
 		// Test AskName
-		javatest.testAskName();
+		// javatest.testAskName();
+
+		// Test RegExp
+		javatest.testRegExp();
 	}
 
 	private void testHelloWorld() {
@@ -34,5 +37,10 @@ public class JavaTest {
 	private void testAskName() {
 		AskName askName = new AskName();
 		askName.demo();
+	}
+
+	private void testRegExp() {
+		RegExp regExp = new RegExp();
+		regExp.demo();
 	}
 }
