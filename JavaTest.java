@@ -11,7 +11,10 @@ public class JavaTest {
 		// javatest.testHelloWorld();
 
 		// Test ArrayList
-		javatest.testArrayList();
+		// javatest.testArrayList();
+
+		// Test AskName
+		javatest.testAskName();
 	}
 
 	private void testHelloWorld() {
@@ -26,5 +29,10 @@ public class JavaTest {
 	private void testArrayList() {
 		ArrayList al = new ArrayList();
 		al.test1();
+	}
+
+	private void testAskName() {
+		AskName askName = new AskName();
+		askName.demo();
 	}
 }
