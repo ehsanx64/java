@@ -17,7 +17,10 @@ public class JavaTest {
 		// javatest.testAskName();
 
 		// Test RegExp
-		javatest.testRegExp();
+		// javatest.testRegExp();
+
+		// Test Awt
+		javatest.testSimpleAwt();
 	}
 
 	private void testHelloWorld() {
@@ -42,5 +45,9 @@ public class JavaTest {
 	private void testRegExp() {
 		RegExp regExp = new RegExp();
 		regExp.demo();
+	}
+
+	private void testSimpleAwt() {
+		SimpleAwt sa = new SimpleAwt();
 	}
 }
