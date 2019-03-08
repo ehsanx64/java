@@ -17,10 +17,10 @@ public class JavaTest {
 		// javatest.testAskName();
 
 		// Test RegExp
-		// javatest.testRegExp();
+		javatest.testRegExp();
 
 		// Test Awt
-		javatest.testSimpleAwt();
+		// javatest.testSimpleAwt();
 	}
 
 	private void testHelloWorld() {
