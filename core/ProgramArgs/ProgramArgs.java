@@ -1,12 +1,10 @@
 import java.util.*;
 
-public class ValidParameters {
+public class ProgramArgs {
 	private List<String> params;
-	private ConsoleLib cl;
 
-	public ValidParameters() {
+	public ProgramArgs() {
 		params = new ArrayList<String>();
-		cl = new ConsoleLib();
 	}
 
 	public void processArgs(String[] args) {
@@ -18,20 +16,18 @@ public class ValidParameters {
 			}
 		}
 
-		cl.printHeader("Overview:");
 		System.out.println("Number of total arguments: " + args.length);
 		System.out.println("Number of valid parameters: " + params.size() + "\n");
 	} 
 
 	public void listParameters() {
-		cl.printHeader("Parameter list:");
 		for (int i = 0; i < params.size(); i++) {
 			System.out.println("Param " + (i + 1) + ": " + params.get(i));
 		}
 	}
 
 	public static void main(String[] args) {
-		ValidParameters p = new ValidParameters();
+		ProgramArgs p = new ProgramArgs();
 		p.processArgs(args);
 		p.listParameters();
 	}
