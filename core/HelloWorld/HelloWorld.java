@@ -1,8 +1,6 @@
 // This source file belongs to the following package
-package javatest.helloworld;
-
 public class HelloWorld {
-	public void say() {
+	public static void main(String[] args) {
 		System.out.println("Hello world!!!");
 	}
 }
