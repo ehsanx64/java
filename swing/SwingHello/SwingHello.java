@@ -1,10 +1,10 @@
 import javax.swing.*;
 
-public class SwingTest extends JFrame {
-	public SwingTest() {
-		super("SwingTest");
+public class SwingHello extends JFrame {
+	public SwingHello() {
+		super("SwingHello");
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		super.add(new JLabel("Hello, world"));
+		super.add(new JLabel("Hello world from Swing"));
 		super.pack();
 		super.add(new JLabel("Hey"));
 		super.pack();
@@ -12,6 +12,6 @@ public class SwingTest extends JFrame {
 	}
 
 	public static void main(final String[] args) {
-		new SwingTest();
+		new SwingHello();
 	}
 }
